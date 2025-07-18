@@ -1,5 +1,54 @@
 # Changelog
 
+## [1.80.122](https://github.com/brave/brave-browser/releases/tag/v1.80.122)
+
+ - Upgraded Chromium to 138.0.7204.157. ([#47649](https://github.com/brave/brave-browser/issues/47649)) ([Changelog for 138.0.7204.157](https://chromium.googlesource.com/chromium/src/+log/138.0.7204.101..138.0.7204.157?pretty=fuller&n=1000))
+
+## [1.80.115](https://github.com/brave/brave-browser/releases/tag/v1.80.115)
+
+ - Fixed issue with Brave Leo not summarizing video transcripts. ([#46845](https://github.com/brave/brave-browser/issues/46845))
+ - Fixed Quick Search panel showing duplicate entries in scroll view after multiple searches. ([#46886](https://github.com/brave/brave-browser/issues/46886))
+ - Upgraded Chromium to 138.0.7204.97. ([#47276](https://github.com/brave/brave-browser/issues/47276)) ([Changelog for 138.0.7204.97](https://chromium.googlesource.com/chromium/src/+log/138.0.7204.49..138.0.7204.97?pretty=fuller&n=1000))
+
+## [1.80.113](https://github.com/brave/brave-browser/releases/tag/v1.80.113)
+
+### Web3
+
+ - Implemented stricter wallet routing and added a 404 page for an invalid route. ([#45684](https://github.com/brave/brave-browser/issues/45684))
+ - Updated opt-in screen for Meld to fit on small screen sizes. ([#44318](https://github.com/brave/brave-browser/issues/44318))
+ - Fixed crash which occurred when trying to render Brave Wallet image in certain cases. ([#46828](https://github.com/brave/brave-browser/issues/46828))
+ - Fixed "Search" icon being cut off on the "Explore" page. ([#44950](https://github.com/brave/brave-browser/issues/44950))
+
+### Rewards
+
+ - Updated dark mode color theme for Rewards UI. ([#45741](https://github.com/brave/brave-browser/issues/45741))
+
+### Leo
+
+ - Added support for automatic default model. ([#45954](https://github.com/brave/brave-browser/issues/45954))
+ - Added loading spinner to display when uploading image attachments. ([#45889](https://github.com/brave/brave-browser/issues/45889))
+ - Improved image attachment UI. ([#45672](https://github.com/brave/brave-browser/issues/45672))
+ - Removed Mixtral from the default Leo model list. ([#46406](https://github.com/brave/brave-browser/issues/46406))
+ - Fixed attachment thumbnail image not being displayed correctly. ([#45916](https://github.com/brave/brave-browser/issues/45916))
+
+### General
+
+ - Added "Mobile bookmarks" as a Homepage option. ([#43657](https://github.com/brave/brave-browser/issues/43657))
+ - Fixed issue with ":matches-path" being used at the beginning of a filter rule. ([#46220](https://github.com/brave/brave-browser/issues/46220))
+ - Fixed incorrect background color being used under New Tab Page when light theme active with background images disabled. ([#46050](https://github.com/brave/brave-browser/issues/46050))
+ - Fixed an issue where opened tabs weren't restored on Brave relaunch in certain cases. ([#45549](https://github.com/brave/brave-browser/issues/45549))
+ - Upgraded Chromium to 138.0.7204.49. ([#47094](https://github.com/brave/brave-browser/issues/47094)) ([Changelog for 138.0.7204.49](https://chromium.googlesource.com/chromium/src/+log/137.0.7151.119..138.0.7204.49?pretty=fuller&n=1000))
+
+## [1.79.126](https://github.com/brave/brave-browser/releases/tag/v1.79.126)
+
+ - Fixed crash on navigation when a Google sign-in request has been triggered. ([#46769](https://github.com/brave/brave-browser/issues/46769))
+ - Upgraded Chromium to 137.0.7151.119. ([#46911](https://github.com/brave/brave-browser/issues/46911)) ([Changelog for 137.0.7151.119](https://chromium.googlesource.com/chromium/src/+log/137.0.7151.104..137.0.7151.119?pretty=fuller&n=1000))
+
+## [1.79.123](https://github.com/brave/brave-browser/releases/tag/v1.79.123)
+
+ - Re-added Chromium search widget to Brave. ([#46597](https://github.com/brave/brave-browser/issues/46597))
+ - Upgraded Chromium to 137.0.7151.104. ([#46712](https://github.com/brave/brave-browser/issues/46712)) ([Changelog for 137.0.7151.104](https://chromium.googlesource.com/chromium/src/+log/137.0.7151.68..137.0.7151.104?pretty=fuller&n=1000))
+
 ## [1.79.119](https://github.com/brave/brave-browser/releases/tag/v1.79.119)
 
  - [Security] Added a conditional host check in binding handlers as reported on HackerOne by newfunction. ([#46181](https://github.com/brave/brave-browser/issues/46181))
@@ -1675,7 +1724,7 @@
 ## [1.37.109](https://github.com/brave/brave-browser/releases/tag/v1.37.109)
 
  - Added fee oracle for EIP-1559 to estimate priority fees in Brave Wallet. ([#20469](https://github.com/brave/brave-browser/issues/20469))
- - Added ability to to override page elements with "!important" styles using cosmetic filtering. ([#20177](https://github.com/brave/brave-browser/issues/20177))
+ - Added ability to override page elements with "!important" styles using cosmetic filtering. ([#20177](https://github.com/brave/brave-browser/issues/20177))
  - Improved selection of RPC URLs after input from chainlist.org with variables and wss:// (Affects Arbitrum). ([#20958](https://github.com/brave/brave-browser/issues/20958))
  - Improved adblocking by applying generic cosmetic filters from brave://adblock into "Standard" shields blocking mode. ([#20855](https://github.com/brave/brave-browser/issues/20855))
  - Removed references of "Brave DEX Aggregator" from Brave Wallet. ([#20463](https://github.com/brave/brave-browser/issues/20463))

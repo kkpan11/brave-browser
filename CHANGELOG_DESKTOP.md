@@ -1,5 +1,77 @@
 # Changelog
 
+## [1.80.122](https://github.com/brave/brave-browser/releases/tag/v1.80.122)
+
+ - Fixed crash on brave://tor-internals which occurred while the Tor network was still connecting. ([#44960](https://github.com/brave/brave-browser/issues/44960))
+ - Upgraded Chromium to 138.0.7204.157. ([#47649](https://github.com/brave/brave-browser/issues/47649)) ([Changelog for 138.0.7204.157](https://chromium.googlesource.com/chromium/src/+log/138.0.7204.101..138.0.7204.157?pretty=fuller&n=1000))
+
+## [1.80.120](https://github.com/brave/brave-browser/releases/tag/v1.80.120)
+
+ - Fixed crash which occurred when using Tor in certain cases. ([#47228](https://github.com/brave/brave-browser/issues/47228))
+ - Fixed bookmark default folder selection. ([#47069](https://github.com/brave/brave-browser/issues/47069))
+ - Upgraded Chromium to 138.0.7204.101. ([#47476](https://github.com/brave/brave-browser/issues/47476)) ([Changelog for 138.0.7204.101](https://chromium.googlesource.com/chromium/src/+log/138.0.7204.97..138.0.7204.101?pretty=fuller&n=1000))
+
+## [1.80.115](https://github.com/brave/brave-browser/releases/tag/v1.80.115)
+
+ - Fixed issue with Brave Leo not summarizing video transcripts. ([#46845](https://github.com/brave/brave-browser/issues/46845))
+ - Upgraded Chromium to 138.0.7204.97. ([#47276](https://github.com/brave/brave-browser/issues/47276)) ([Changelog for 138.0.7204.97](https://chromium.googlesource.com/chromium/src/+log/138.0.7204.49..138.0.7204.97?pretty=fuller&n=1000))
+
+## [1.80.113](https://github.com/brave/brave-browser/releases/tag/v1.80.113)
+
+### Web3
+
+ - Implemented stricter wallet routing and added a 404 page for an invalid route. ([#45684](https://github.com/brave/brave-browser/issues/45684))
+ - Updated opt-in screen for Meld to fit on small screen sizes. ([#44318](https://github.com/brave/brave-browser/issues/44318))
+ - Removed the "Edit" gas button for Zcash transactions. ([#45748](https://github.com/brave/brave-browser/issues/45748))
+ - Fixed crash which occurred when trying to render Brave Wallet image in certain cases. ([#46828](https://github.com/brave/brave-browser/issues/46828))
+ - Fixed "Search" icon being cut off on the "Explore" page. ([#44950](https://github.com/brave/brave-browser/issues/44950))
+
+### Leo
+
+ - Added support for automatic default model. ([#45954](https://github.com/brave/brave-browser/issues/45954))
+ - Added loading spinner to display when uploading image attachments. ([#45889](https://github.com/brave/brave-browser/issues/45889))
+ - Improved image attachment UI. ([#45672](https://github.com/brave/brave-browser/issues/45672))
+ - Removed Mixtral from the default Leo model list. ([#46406](https://github.com/brave/brave-browser/issues/46406))
+ - Fixed attachment thumbnail image not being displayed correctly. ([#45916](https://github.com/brave/brave-browser/issues/45916))
+
+### Rewards
+
+ - Updated dark mode color theme for Rewards UI. ([#45741](https://github.com/brave/brave-browser/issues/45741))
+
+### General
+
+ - Added the ability to open Progressive Web Apps (PWAs) in a tabbed window. ([#45435](https://github.com/brave/brave-browser/issues/45435))
+ - Updated extension import to warn the user to close Chrome if opened during import attempt. ([#44945](https://github.com/brave/brave-browser/issues/44945))
+ - Updated extension import to import both "IndexedDB" and "Local Extension Storage" when present for an extension. ([#44946](https://github.com/brave/brave-browser/issues/44946))
+ - Updated buttons on interstitial pages to use Brave theme. ([#45666](https://github.com/brave/brave-browser/issues/45666))
+ - Removed the password check box from brave://settings/importData dialog when importing from Chrome. ([#46206](https://github.com/brave/brave-browser/issues/46206))
+ - Fixed crash which occurred when moving a tab across monitors. ([#46066](https://github.com/brave/brave-browser/issues/46066))
+ - Fixed issue with ":matches-path" being used at the beginning of a filter rule. ([#46220](https://github.com/brave/brave-browser/issues/46220))
+ - Fixed display of long keyboard shortcuts on brave://settings/system/shortcuts. ([#41873](https://github.com/brave/brave-browser/issues/41873))
+ - Fixed "Toggle Vertical Tabs Expanded" keyboard shortcut not working when "Expand Vertical Tabs Independently per Window" is enabled. ([#41074](https://github.com/brave/brave-browser/issues/41074))
+ - Upgraded Chromium to 138.0.7204.49. ([#47094](https://github.com/brave/brave-browser/issues/47094)) ([Changelog for 138.0.7204.49](https://chromium.googlesource.com/chromium/src/+log/137.0.7151.119..138.0.7204.49?pretty=fuller&n=1000))
+
+## [1.79.126](https://github.com/brave/brave-browser/releases/tag/v1.79.126)
+
+ - Fixed crash when clicking on shields panel in certain cases. ([#46566](https://github.com/brave/brave-browser/issues/46566))
+ - Fixed crash on navigation when a Google sign-in request has been triggered. ([#46769](https://github.com/brave/brave-browser/issues/46769))
+ - Fixed crash when Leo generates empty list when clicking on "Suggest questions" while using BYOM (Bring Your Own Model). ([#46843](https://github.com/brave/brave-browser/issues/46843))
+ - Fixed issue importing from Trezor wallet when Trezor Connect is outdated. ([#46660](https://github.com/brave/brave-browser/issues/46660))
+ - Upgraded Chromium to 137.0.7151.119. ([#46911](https://github.com/brave/brave-browser/issues/46911)) ([Changelog for 137.0.7151.119](https://chromium.googlesource.com/chromium/src/+log/137.0.7151.104..137.0.7151.119?pretty=fuller&n=1000))
+
+## [1.79.123](https://github.com/brave/brave-browser/releases/tag/v1.79.123)
+
+### Leo
+
+ - Improved citation UI. ([#45761](https://github.com/brave/brave-browser/issues/45761))
+
+### General
+
+ - [Security] Fixed missing DDNS navigation throttle for subframes as reported on HackerOne by newfunction. ([#46703](https://github.com/brave/brave-browser/issues/46703))
+ - Fixed crash which occurred when clicking on the "View site information" icon in the address bar while having "Don't allow sites to scroll and zoom shared tabs" enabled. ([#46566](https://github.com/brave/brave-browser/issues/46566))
+ - Fixed crash which occurred with the "Save autofill" prompt in certain cases. ([#45546](https://github.com/brave/brave-browser/issues/45546))
+ - Upgraded Chromium to 137.0.7151.104. ([#46712](https://github.com/brave/brave-browser/issues/46712)) ([Changelog for 137.0.7151.104](https://chromium.googlesource.com/chromium/src/+log/137.0.7151.68..137.0.7151.104?pretty=fuller&n=1000))
+
 ## [1.79.119](https://github.com/brave/brave-browser/releases/tag/v1.79.119)
 
  - [Security] Added a conditional host check in binding handlers as reported on HackerOne by newfunction. ([#46181](https://github.com/brave/brave-browser/issues/46181))
